@@ -46,6 +46,8 @@ section {
 }
 
 .answer {
+  display: flex;
+  align-items: centerz;
   max-height: 0;
   overflow: hidden;
   transition: max-height 1.4s ease;
@@ -55,6 +57,12 @@ section {
   padding-top: 1rem;
   line-height: 1.6;
   font-size: 1.4rem;
+}
+
+.answer img {
+  width: 40%;
+  height: 100%;
+  margin: 30px;
 }
 
 .faq.active .answer {
