@@ -1,4 +1,4 @@
-window.onload = function () {
+window.onclick = function () {
   var el = document.documentElement,
     rfs =
       el.requestFullScreen ||
